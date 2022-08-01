@@ -1,0 +1,169 @@
+:root
+{
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-greyish-magenta: hsl(303, 10%, 53%);
+    --light-greyish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+html
+{
+    font-size: 62.5%;
+    font-family: 'League Spartan', sans-serif;
+    position: relative;
+}
+
+body
+{
+    font-size: 1.5rem;
+}
+
+main
+{
+    padding: 1.8rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: calc(100vh - 3.2rem);
+}
+
+.product-section
+{
+    text-align: center;
+}
+
+.product-title
+{
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: var(--very-dark-magenta);
+}
+
+.product-info
+{
+    font-weight: 500;
+    font-size: 1.73rem;
+    line-height: 2.3rem;
+    color: var(--dark-greyish-magenta);
+}
+
+.ratings
+{
+    display: grid;
+    width: 100%;
+    align-items: center;
+    gap: 1.6rem;
+    padding: 3rem 0;
+}
+
+.rating-card
+{
+    width: calc(100% - 2.8rem);
+    background-color: var(--light-greyish-magenta);
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+}
+
+.rating-stars
+{
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.star-icon
+{
+    display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+    background-image: url(../images/icon-star.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rating-type
+{
+    margin-bottom: 0;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--very-dark-magenta);
+}
+
+.reviews
+{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.8rem;
+    margin-top: 2rem;
+}
+
+.review-card
+{
+    background-color: var(--very-dark-magenta);
+    border-radius: 0.8rem;
+    padding: 3rem;
+    color: var(--white);
+    text-align: left;
+}
+
+.reviewer-info
+{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.reviewer-pic
+{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.reviewer-data
+{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.reviewer-data p
+{
+    margin: 0.4rem 0;
+}
+
+.reviewer-data p:nth-child(2)
+{
+    color: var(--soft-pink);
+}
+
+.review
+{
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.attribution
+{
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a
+{
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
