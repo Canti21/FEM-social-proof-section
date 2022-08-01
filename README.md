@@ -35,8 +35,8 @@ Users should be able to:
 
 ### 🔗 Links
 
-- Solution URL: [FrontEnd Mentor]()
-- Live Site URL: [Deploy]()
+- Solution URL: [FrontEnd Mentor](https://www.frontendmentor.io/solutions/social-proof-section-8o4EqBNOZE)
+- Live Site URL: [Deploy](https://canti21.github.io/FEM-social-proof-section/)
 
 ## 🛠 Built with
 
