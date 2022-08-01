@@ -21,6 +21,8 @@ Users should be able to:
 
 - View the optimal layout for the section depending on their device's screen size
 
+The target designs are in the [`/design`](./design/) folder.
+
 ### 📷 Screenshots
 
 **Here is the final product**
