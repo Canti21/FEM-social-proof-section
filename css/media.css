@@ -45,7 +45,12 @@
     {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
-        gap: 0;
+    }
+
+    .rating-card
+    {
+        max-width: 25rem;
+        margin: 0 auto;
     }
 
     .reviews
@@ -83,14 +88,21 @@
         margin: 0;
     }
 
+    .ratings
+    {
+        gap: 0;
+    }
+
     .rating-card
     {
         display: flex;
         align-items: center;
         gap: 2rem;
+        max-width: none;
         width: 38rem;
         padding: 2rem;
         padding-left: 3rem;
+        margin: 0;
     }
 
     .rating-type
